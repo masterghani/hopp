@@ -1,0 +1,15 @@
+{
+    "hoppenv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-hopp-hoppenv-164626-authRole",
+            "UnauthRoleArn": "arn:aws:iam::447914596505:role/amplify-hopp-hoppenv-164626-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::447914596505:role/amplify-hopp-hoppenv-164626-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-hopp-hoppenv-164626-deployment",
+            "UnauthRoleName": "amplify-hopp-hoppenv-164626-unauthRole",
+            "StackName": "amplify-hopp-hoppenv-164626",
+            "StackId": "arn:aws:cloudformation:us-east-2:447914596505:stack/amplify-hopp-hoppenv-164626/037728c0-7e91-11ea-bdaa-02860fd3b864",
+            "AmplifyAppId": "dwu8ma01td4sm"
+        }
+    }
+}

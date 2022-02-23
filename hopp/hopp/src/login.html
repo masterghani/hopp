@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hopp</title>
+   
+    <link rel="stylesheet" href="login.css">
+       <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+
+  </head>
+  <body class="body">
+
+            <div class="topnav">
+              <img src="thumb.png" alt="thumb" class = "thumb">
+              <div class="topnav-right">
+                <a href="#upcoming-trips">Upcoming Trips</a>
+                <a href="#notifications">Notifications</a>
+               <img src="account.svg" alt="account" class = "account">
+              </div>
+          </div>
+      <div class="wrapper">
+    <div class="container">
+      
+      <div class="signup">Sign Up</div>
+      <div class="login">Log In</div>
+      
+       <div class="signup-form"> 
+        <input type="text" placeholder="Your Full Name" class="input" required><br />
+          <input type="email" placeholder="Your Email Address" class="input"  pattern=".+@globex.com" size="30" required><br/>
+             <input type="date" placeholder="Your Birthday" class="input" required><br/>
+           <select id="gender" placeholder="Your Gender" class="input" required>
+             <option value ="gender" class="input"> Select Gender</option>
+             <option value ="gender" class="input"> Male</option>
+              <option value ="gender" class="input"> Female</option>
+               <option value ="gender" class="input"> Genderqueer/Non-Binary</option>
+           </select><br/>
+           <input type="tel" placeholder="Your Phone Number" class="input"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br/>
+          <input type="text" placeholder="Choose a Username" class="input" required><br />
+          <input type="password" placeholder="Choose a Password" class="input" required><br />
+          <button type="submit" class="btn">Create account </button>
+       </div>
+      
+      <div class="login-form">
+          <input type="text" placeholder="Email or Username" class="input2"><br />
+          <input type="password" placeholder="Password" class="input2"><br />
+          <div class="btn">log in</div>
+          <span><a href="#">I forgot my username or password.</a></span>
+       </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+     
+    <!-- includes jQuery v3.3.1 in case you would like to use jQuery-->
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+            crossorigin="anonymous"></script>
+    <!-- includes triangle.js from your directory-->
+    <script src="login.js"></script>
+  </body>
+</html>

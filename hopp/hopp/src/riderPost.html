@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rider</title>
+   
+    <link rel="stylesheet" href="rider.css">
+       <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+
+  </head>
+  <body class="body">
+
+            <div class="topnav">
+              <img src="thumb.png" alt="thumb" class = "thumb">
+              <div class="topnav-right">
+                <a href="#upcoming-trips">Upcoming Trips</a>
+                <a href="#notifications">Notifications</a>
+               <img src="account.svg" alt="account" class = "account">
+                 <!-- <a class="cta" href="#"><button>Account</button>button</a> -->
+              </div>
+          </div>
+
+          <div class = "left" >
+                 <div class="wrapper">
+    <div class="container">
+      
+      <div class="questionnaire-title">Rider Questionnaire</div>
+
+      
+       <div class="signup-form"> 
+         <div class ="origin-box">
+         <input id="origin" type= "text" placeholder= "Origin" class= "input" required>
+           <input id ="origin-range" type= "number" placeholder= "Mile Range" class= "input" required>
+         </div>
+          <div class ="dest-box">
+         <input id="dest" type= "text" placeholder= "Destination" class= "input" required>
+         <input id ="dest-range" type= "number" placeholder= "Mile Range" class= "input" required>
+       </div>
+
+         <input type="datetime-local" placeholder="Date & Time" class="input" required><br/>
+          <input type="number" placeholder="Max Price" class="input" min ="0" required><br/>
+          <input type="number" placeholder="Seats Needed" class="input" min ="1" required><br/>
+          <button type="submit" class="btn">Find Drivers </button>
+       </div>
+      
+      
+      
+    </div>
+  </div>
+
+
+          </div>
+
+     
+      
+
+
+
+
+
+
+
+
+     
+    <!-- includes jQuery v3.3.1 in case you would like to use jQuery-->
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+            crossorigin="anonymous"></script>
+    <!-- includes triangle.js from your directory-->
+    <!-- <script src="login.js"></script> -->
+  </body>
+</html>
